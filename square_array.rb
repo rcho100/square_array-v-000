@@ -7,6 +7,6 @@ def square_array(array)
     squared_number = number**2
     array_of_squares << squared_number
     #binding.pry
-    return array_of_squares
+    return array_of_squares if array_of_squares.size == 3
   end
 end
