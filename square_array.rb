@@ -1,5 +1,4 @@
 
-
 #this is with the #each method
 def square_array(array)
  array_of_squares = []
