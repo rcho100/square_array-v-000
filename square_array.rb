@@ -1,15 +1,15 @@
 require "pry"
 
 #this is with the #each method
-def square_array(array)
+#def square_array(array)
   # your code here
-  array_of_squares = []
-  array.each do |number|
-    array_of_squares << number**2
+#  array_of_squares = []
+#  array.each do |number|
+#    array_of_squares << number**2
     #binding.pry
-    return array_of_squares if array_of_squares.size == array.size
-  end
-end
+#    return array_of_squares if array_of_squares.size == array.size
+#  end
+#end
 
 #this is with the #collect method
 def square_array(array)
