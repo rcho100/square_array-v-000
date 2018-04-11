@@ -5,5 +5,6 @@ def square_array(array)
     array_of_squares = []
     squared_number = number**2
     array_of_squares << squared_number
+    binding.pry
   end
 end
