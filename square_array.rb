@@ -4,7 +4,7 @@ def square_array(array)
  array_of_squares = []
  array.each do |number|
    array_of_squares << number**2
-   #return array_of_squares if array_of_squares.size == array.size
+   return array_of_squares if array_of_squares.size == array.size
  end
 end
 
