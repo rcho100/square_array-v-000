@@ -15,6 +15,7 @@ require "pry"
 def square_array(array)
   array.collect do |number|
     number**2
-    binding.pry
   end
+  binding.pry
+
 end
