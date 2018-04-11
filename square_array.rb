@@ -5,5 +5,4 @@ def square_array(array)
     squared_number = number**2
     array_of_squares << squared_number
   end
-  array_of_squares
 end
